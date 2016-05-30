@@ -1,0 +1,31 @@
+{
+  "name": "markdown-it-embed-mathjax-highlight",
+  "version": "1.0.0",
+  "description": "A markdown-it collection lib with support for mp4, code highlighting, and mathjax.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diversen/markdown-it-bin.git"
+  },
+  "keywords": [
+    "markdown-it",
+    "markdown",
+    "mathjax"
+  ],
+  "author": "Dennis Iversen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diversen/markdown-it-bin/issues"
+  },
+  "homepage": "https://github.com/diversen/markdown-it-bin#readme",
+  "dependencies": {
+    "highlightjs": "^8.7.0",
+    "markdown-it": "^6.0.2",
+    "markdown-it-html5-embed": "^0.3.2",
+    "markdown-it-mathjax": "^1.0.3",
+    "mathjax": "^2.6.1"
+  }
+}
