@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diversen/markdown-it-bin.git"
+    "url": "git+https://github.com/diversen/markdown-it-embed-mathjax-highlight.git"
   },
   "keywords": [
     "markdown-it",
@@ -18,9 +18,9 @@
   "author": "Dennis Iversen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/diversen/markdown-it-bin/issues"
+    "url": "https://github.com/diversen/markdown-it-embed-mathjax-highlight/issues"
   },
-  "homepage": "https://github.com/diversen/markdown-it-bin#readme",
+  "homepage": "https://github.com/diversen/markdown-it-embed-mathjax-highlight#readme",
   "dependencies": {
     "highlightjs": "^8.7.0",
     "markdown-it": "^6.0.2",
