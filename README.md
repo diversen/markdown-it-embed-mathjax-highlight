@@ -2,9 +2,16 @@
 
 Markdown-it with mathjax, highlightjs, and html5 video embed. 
 
+
+
+Install: 
+
+    // Install and save
+    npm install markdown-it-embed-mathjax-highlight --save
+
 Usage: 
 
-	// include the lib
+    // include the lib.
     md = require('markdown-it-embed-mathjax-highlight');
 
     // Change options as you like (as in markdown-it), e.g.: 
