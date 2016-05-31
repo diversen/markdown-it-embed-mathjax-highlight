@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/diversen/markdown-it-embed-mathjax-highlight#readme",
   "dependencies": {
-    "highlightjs": "^8.7.0",
+    "highlight.js": "^9.4.0",
     "markdown-it": "^6.0.2",
     "markdown-it-html5-embed": "^0.3.2",
     "markdown-it-mathjax": "^1.0.3",

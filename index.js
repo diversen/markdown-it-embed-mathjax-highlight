@@ -1,6 +1,6 @@
 'use strict';
 
-var hljs =  require('./node_modules/highlightjs/highlight.pack');
+var hljs =  require('highlight.js');
 var markdownitHTML5Embed = require ('markdown-it-html5-embed');
 
 // Highlighter function for markdown-it
@@ -21,7 +21,7 @@ var highlighter = function (str, lang) {
 
 // Markdown-it
 var md = require('markdown-it')({
-    //highlight: highlighter, 
+    highlight: highlighter, 
     html: false, // Enable HTML tags in source
     xhtmlOut: true, // Use '/' to close single tags (<br />).
     // This is only for full CommonMark compatibility.
@@ -56,7 +56,6 @@ md.use(markdownitHTML5Embed, {
 
 // MathJax
 md.use(require('markdown-it-mathjax'));
-md.highlight = highlighter;
 
 // Export
 module.exports= md;
