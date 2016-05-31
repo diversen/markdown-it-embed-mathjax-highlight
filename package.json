@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-embed-mathjax-highlight",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A markdown-it collection lib with support for mp4, code highlighting, and mathjax.",
   "main": "index.js",
   "scripts": {
